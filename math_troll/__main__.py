@@ -22,10 +22,24 @@ async def hello():
     return Response(
         """<html>
         <head>
-            <meta name="viewport" content="width=device-width; height=device-height;">
+            <!-- Primary Meta Tags -->
+            <title>Meta Tags — Preview, Edit and Generate</title>
+            <meta name="title" content="Meta Tags — Preview, Edit and Generate">
+            <meta name="description" content="With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!">
+
+            <!-- Open Graph / Facebook -->
             <meta property="og:type" content="website">
-            <meta property="og:image" content="/image" />
-            <meta name="twitter:card" content="summary_large_image">
+            <meta property="og:url" content="/">
+            <meta property="og:title" content="Meta Tags — Preview, Edit and Generate">
+            <meta property="og:description" content="With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!">
+            <meta property="og:image" content="/image">
+
+            <!-- Twitter -->
+            <meta property="twitter:card" content="summary_large_image">
+            <meta property="twitter:url" content="/">
+            <meta property="twitter:title" content="Meta Tags — Preview, Edit and Generate">
+            <meta property="twitter:description" content="With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!">
+            <meta property="twitter:image" content="/image">
         </head>
         
         <body><img src="/image"/></body>
