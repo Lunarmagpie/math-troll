@@ -31,4 +31,4 @@ async def hello_2():
         mimetype="image",
     )
 
-app.run(port=os.environ.get("PORT", 8080))
+app.run(port=os.environ.get("PORT", 8080), host="0.0.0.0")
