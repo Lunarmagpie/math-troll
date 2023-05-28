@@ -1,6 +1,8 @@
 from quart import Quart, Response
 import random
 
+import os
+
 app = Quart(__name__)
 
 img_paths = [
@@ -29,4 +31,4 @@ async def hello_2():
         mimetype="image",
     )
 
-app.run(port=8080)
+app.run(port=os.environ.get("PORT", 8080))
