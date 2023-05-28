@@ -29,4 +29,4 @@ async def hello_2():
         mimetype="image",
     )
 
-app.run()
+app.run(port=8080)
