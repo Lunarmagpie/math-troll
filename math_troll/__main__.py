@@ -23,7 +23,7 @@ async def hello():
         """<html>
         <head>
             <meta name="viewport" content="width=device-width; height=device-height;">
-            <meta property="og:type" content="image">
+            <meta property="og:type" content="website">
             <meta property="og:image" content="/image" />
         </head>
         
