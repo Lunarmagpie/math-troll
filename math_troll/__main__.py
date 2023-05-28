@@ -25,6 +25,7 @@ async def hello():
             <meta name="viewport" content="width=device-width; height=device-height;">
             <meta property="og:type" content="website">
             <meta property="og:image" content="/image" />
+            <meta name="twitter:card" content="summary_large_image">
         </head>
         
         <body><img src="/image"/></body>
