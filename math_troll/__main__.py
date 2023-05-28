@@ -20,7 +20,7 @@ for path in img_paths:
 @app.route('/')
 async def hello():
     return Response(
-        """<meta property="og:image" content="/image" /> <img src="/image"/>""",
+        """<head><meta property="og:image" content="/image" /> <img src="/image"/></head>""",
         mimetype="text/html",
     )
 
